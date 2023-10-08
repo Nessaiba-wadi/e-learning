@@ -75,13 +75,13 @@
                             <div class="col-lg-4">
                                 <a href="theme7.php">
                                 <div class="course-img">
-                                    <img src="assets/images/course/1.png" alt="" class="img-fluid">
+                                    <img src="assets/images/course/7.png" alt="" style="max-width: 122px;max-height: 122px;">
                                 </div>
                                 </a>
                             </div>
                         <a href="theme7.php">
                             <div class="col-lg-8">
-                                <div class="course-content"  style="margin-left: 15px;">
+                                <div class="course-content"    style="margin-left: 40px;">
                                     <div class="course-price ">Dossier 1</div>
 
                                     <h4><a href="theme7.php"> Mes amis </a></h4>
@@ -95,20 +95,64 @@
                 <div class="course-block course-list-item">
                     <div class="row align-items-center" style="height: 140px;">
                         <div class="col-lg-4">
+                            <a href="theme10.php">
+                                <div class="course-img">
+                                    <img src="assets/images/course/10.png" alt="" style="max-width: 122px;max-height: 122px;">
+                                </div>
+                            </a>
+                        </div>
+                        <a href="theme10.php">
+                            <div class="col-lg-8">
+                                <div class="course-content"   >
+                                    <div class="course-price ">Dossier 4</div>
+                                    <h4><a href="theme10.php">Les histoires qui font peur</a></h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="course-block course-list-item">
+                    <div class="row align-items-center" style="height: 140px;">
+                        <div class="col-lg-4">
                             <a href="theme8.php">
                             <div class="course-img">
-                                <img src="assets/images/course/1.png" alt="" class="img-fluid">
+                                <img src="assets/images/course/8.png" alt="" style="max-width: 122px;max-height: 122px;">
                             </div>
                             </a>
                         </div>
                         <a href="theme8.php">
-                        <div class="col-lg-8">
-                            <div class="course-content"  style="margin-left: 15px;">
+                        <div class="col-lg-8" >
+                            <div class="course-content"  style="margin-left: 35px;">
                                 <div class="course-price ">Dossier 2</div>
 
                                 <h4><a href="theme8.php">Relève le défi</a></h4>
                             </div>
                         </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-6 col-md-6">
+                <div class="course-block course-list-item">
+                    <div class="row align-items-center" style="height: 140px;">
+                        <div class="col-lg-4">
+                            <a href="theme11.php">
+                                <div class="course-img">
+                                    <img src="assets/images/course/11.png" alt="" style="max-width: 122px;max-height: 122px;">
+                                </div>
+                            </a>
+                        </div>
+                        <a href="theme11.php">
+                            <div class="col-lg-8">
+                                <div class="course-content" >
+                                    <div class="course-price ">Dossier 5</div>
+                                    <h4 style="max-width: 100%"><a href="theme11.php">Réaliser mon rêve d'enfant</a></h4>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -119,13 +163,13 @@
                         <div class="col-lg-4">
                             <a href="theme9.php">
                                 <div class="course-img">
-                                    <img src="assets/images/course/1.png" alt="" class="img-fluid">
+                                    <img src="assets/images/course/9.png" alt="" style="max-width: 122px;max-height: 122px;">
                                 </div>
                             </a>
                         </div>
                         <a href="theme9.php">
                             <div class="col-lg-8">
-                                <div class="course-content">
+                                <div class="course-content"   style="margin-left: 35px;">
                                     <div class="course-price ">Dossier 3</div>
 
                                     <h4><a href="theme9.php">Nos loisirs</a></h4>
@@ -139,51 +183,9 @@
                 <div class="course-block course-list-item">
                     <div class="row align-items-center" style="height: 140px;">
                         <div class="col-lg-4">
-                            <a href="theme10.php">
-                                <div class="course-img">
-                                    <img src="assets/images/course/1.png" alt="" class="img-fluid">
-                                </div>
-                            </a>
-                        </div>
-                        <a href="theme10.php">
-                            <div class="col-lg-8">
-                                <div class="course-content"   style="margin-left: 20px;">
-                                    <div class="course-price ">Dossier 4</div>
-                                    <h4><a href="theme10.php">Les histoires qui font peur</a></h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="course-block course-list-item">
-                    <div class="row align-items-center" style="height: 140px;">
-                        <div class="col-lg-4">
-                            <a href="theme11.php">
-                                <div class="course-img">
-                                    <img src="assets/images/course/1.png" alt="" class="img-fluid">
-                                </div>
-                            </a>
-                        </div>
-                        <a href="theme11.php">
-                            <div class="col-lg-8">
-                                <div class="course-content"    style="margin-left: 20px;">
-                                    <div class="course-price ">Dossier 5</div>
-                                    <h4><a href="theme11.php">Réaliser mon rêve d'enfant</a></h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="course-block course-list-item">
-                    <div class="row align-items-center" style="height: 140px;">
-                        <div class="col-lg-4">
                             <a href="theme12.php">
                                 <div class="course-img">
-                                    <img src="assets/images/course/1.png" alt="" class="img-fluid">
+                                    <img src="assets/images/course/12.png" alt="" style="max-width: 122px;max-height: 122px;">
                                 </div>
                             </a>
                         </div>
@@ -191,7 +193,7 @@
                             <div class="col-lg-8">
                                 <div class="course-content">
                                     <div class="course-price ">Dossier 6</div>
-                                    <h4><a href="theme12.php">À la découverte du monde !</a></h4>
+                                    <h4><a href="theme12.php">À la découverte du monde!</a></h4>
                                 </div>
                             </div>
                         </a>

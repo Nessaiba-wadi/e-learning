@@ -98,8 +98,8 @@
         </div>
     </section>
 
+
     <!--les cours à écrire -->
-    <!--
     <section class="space-3">
         <div class="container">
             <div class="row">
@@ -109,11 +109,11 @@
                         <p class="woocommerce-result-count"> Semaine 1–5</p>
                     </div>
                     <ul class="products columns-4">
-                        <?php /*
+                        <?php
                         include "conn.php"; // Include the database connection file
 
                         // Define the theme ID you want to fetch (for example, theme 1)
-                        $theme_id = 10;
+                        $theme_id = 12;
 
                         // Query courses only for the specific theme
                         $resultsCourses = $mysqli->query("SELECT * FROM writingcourses WHERE theme_id = $theme_id");
@@ -141,7 +141,7 @@
 
                             <?php
 
-                        }?>
+                        } ?>
                     </ul>
 
                 </div>
@@ -150,51 +150,6 @@
     </section>
 
 
-    <!--les exercices -->
-    <section class="space-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 mb-4 mb-lg-0">
-                    <div class="section-title">
-                        <h2 class="title d-block text-left-sm">Exercices</h2>
-                    </div>
-                    <ul class="products columns-4">
-                        <?php
-                        include "conn.php"; // Include the database connection file
-
-                        // Define the theme ID you want to fetch (for example, theme 1)
-                        $theme_id = 1;
-
-                        // Query courses only for the specific theme
-                        $resultsCourses = $mysqli->query("SELECT * FROM exercises WHERE theme_id = $theme_id");
-
-                        // Counter for the loop
-                        $counter = 0;
-
-                        // Iterate through each course
-                        while ($courses = $resultsCourses->fetch_assoc()) {
-                            $counter++;
-
-                            // Add 'last' class if the counter is divisible by 3
-                            $class = ($counter % 4 == 0) ? 'product last' : 'product';
-                            ?>
-                            <li class="<?php echo $class; ?>">
-                                <div class="product-wrap">
-                                    <?php echo '<a href="' . $courses['exercise_pdf'] . '" target="_blank" class=""><img src="' . $courses['picture'] . '" alt=""></a>'; ?>
-                                </div>
-                            </li>
-
-                            <?php
-
-                        } */ ?>
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-    <!-- product section end-->
 </main>
 
 

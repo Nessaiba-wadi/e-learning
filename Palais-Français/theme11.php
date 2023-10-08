@@ -100,7 +100,6 @@
     </section>
 
     <!--les cours à écrire -->
- <!--
     <section class="space-3">
         <div class="container">
             <div class="row">
@@ -110,11 +109,11 @@
                         <p class="woocommerce-result-count"> Semaine 1–5</p>
                     </div>
                     <ul class="products columns-4">
-                        <?php /*
+                        <?php
                         include "conn.php"; // Include the database connection file
 
                         // Define the theme ID you want to fetch (for example, theme 1)
-                        $theme_id = 10;
+                        $theme_id = 14;
 
                         // Query courses only for the specific theme
                         $resultsCourses = $mysqli->query("SELECT * FROM writingcourses WHERE theme_id = $theme_id");
@@ -152,49 +151,51 @@
 
 
     <!--les exercices -->
-    <section class="space-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 mb-4 mb-lg-0">
-                    <div class="section-title">
-                        <h2 class="title d-block text-left-sm">Exercices</h2>
-                    </div>
-                    <ul class="products columns-4">
-                        <?php
-                        include "conn.php"; // Include the database connection file
+    <!--
 
-                        // Define the theme ID you want to fetch (for example, theme 1)
-                        $theme_id = 1;
+   <section class="space-3">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12 mb-4 mb-lg-0">
+                   <div class="section-title">
+                       <h2 class="title d-block text-left-sm">Exercices</h2>
+                   </div>
+                   <ul class="products columns-4">
+                       <?php /*
+                       include "conn.php"; // Include the database connection file
 
-                        // Query courses only for the specific theme
-                        $resultsCourses = $mysqli->query("SELECT * FROM exercises WHERE theme_id = $theme_id");
+                       // Define the theme ID you want to fetch (for example, theme 1)
+                       $theme_id = 1;
 
-                        // Counter for the loop
-                        $counter = 0;
+                       // Query courses only for the specific theme
+                       $resultsCourses = $mysqli->query("SELECT * FROM exercises WHERE theme_id = $theme_id");
 
-                        // Iterate through each course
-                        while ($courses = $resultsCourses->fetch_assoc()) {
-                            $counter++;
+                       // Counter for the loop
+                       $counter = 0;
 
-                            // Add 'last' class if the counter is divisible by 3
-                            $class = ($counter % 4 == 0) ? 'product last' : 'product';
-                            ?>
-                            <li class="<?php echo $class; ?>">
-                                <div class="product-wrap">
-                                    <?php echo '<a href="' . $courses['exercise_pdf'] . '" target="_blank" class=""><img src="' . $courses['picture'] . '" alt=""></a>'; ?>
-                                </div>
-                            </li>
+                       // Iterate through each course
+                       while ($courses = $resultsCourses->fetch_assoc()) {
+                           $counter++;
 
-                            <?php
+                           // Add 'last' class if the counter is divisible by 3
+                           $class = ($counter % 4 == 0) ? 'product last' : 'product';
+                           ?>
+                           <li class="<?php echo $class; ?>">
+                               <div class="product-wrap">
+                                   <?php echo '<a href="' . $courses['exercise_pdf'] . '" target="_blank" class=""><img src="' . $courses['picture'] . '" alt=""></a>'; ?>
+                               </div>
+                           </li>
 
-                        } */ ?>
-                    </ul>
+                           <?php
 
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
+                       } */ ?>
+                   </ul>
+
+               </div>
+           </div>
+       </div>
+   </section>
+   -->
     <!-- product section end-->
 </main>
 

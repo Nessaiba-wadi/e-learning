@@ -99,7 +99,6 @@
     </section>
 
     <!--les cours à écrire -->
- <!--
     <section class="space-3">
         <div class="container">
             <div class="row">
@@ -109,11 +108,11 @@
                         <p class="woocommerce-result-count"> Semaine 1–5</p>
                     </div>
                     <ul class="products columns-4">
-                        <?php /*
+                        <?php
                         include "conn.php"; // Include the database connection file
 
                         // Define the theme ID you want to fetch (for example, theme 1)
-                        $theme_id = 10;
+                        $theme_id = 13;
 
                         // Query courses only for the specific theme
                         $resultsCourses = $mysqli->query("SELECT * FROM writingcourses WHERE theme_id = $theme_id");
@@ -151,6 +150,7 @@
 
 
     <!--les exercices -->
+    <!--
     <section class="space-3">
         <div class="container">
             <div class="row">
@@ -159,7 +159,7 @@
                         <h2 class="title d-block text-left-sm">Exercices</h2>
                     </div>
                     <ul class="products columns-4">
-                        <?php
+                        <?php /*
                         include "conn.php"; // Include the database connection file
 
                         // Define the theme ID you want to fetch (for example, theme 1)
