@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : sam. 30 sep. 2023 à 18:52
+-- Généré le : dim. 08 oct. 2023 à 17:20
 -- Version du serveur : 10.4.27-MariaDB
 -- Version de PHP : 8.2.0
 
@@ -340,7 +340,32 @@ INSERT INTO `writingcourses` (`id`, `theme_id`, `course_name`, `course_pdf`, `pi
 (45, 6, 'On / ont / on’n', 'pdfs/Des journaux intimes/Orthographe/12.pdf', 'assets/back/Orth.jpg'),
 (46, NULL, 'voc1', 'pdfs/Des journaux intimes/Vocabulaire/11.pdf', 'assets/back/Vo.jpg'),
 (47, 6, 'La comparaison et la métaphore', 'pdfs/Des journaux intimes/Vocabulaire/11.pdf', 'assets/back/Vo.jpg'),
-(48, 6, 'Le comparatif et le superlatif', 'pdfs/Des journaux intimes/Vocabulaire/12.pdf', 'assets/back/Vo.jpg');
+(48, 6, 'Le comparatif et le superlatif', 'pdfs/Des journaux intimes/Vocabulaire/12.pdf', 'assets/back/Vo.jpg'),
+(49, 10, 'Les phrases déclarative et interogative', 'pdfs/cm2-th1/grammaire/1.pdf', 'assets/back/Gra.jpg'),
+(50, 10, 'La phrase exclamative et injonctive', 'pdfs/cm2-th1/grammaire/2.pdf', 'assets/back/Gra.jpg'),
+(51, 10, 'L’infinitif et les groupes des verbes', 'pdfs/cm2-th1/Conjugaison/1.pdf', 'assets/back/Conj.jpg'),
+(52, 10, 'Le présent des verbes du 1er et 2eme groupe ', 'pdfs/cm2-th1/Conjugaison/2.pdf', 'assets/back/Conj.jpg'),
+(53, 10, 'Le sons [è] et le son [é]', 'pdfs/cm2-th1/Orthographe/1.pdf', 'assets/back/Orth.jpg'),
+(54, 10, 'L\'accord du verbe avec le sujet', 'pdfs/cm2-th1/Orthographe/2.pdf', 'assets/back/Orth.jpg'),
+(55, 10, 'L\'ordre alphabétique et le dictionnaire', 'pdfs/cm2-th1/Vocabulaire/1.pdf', 'assets/back/Vo.jpg'),
+(56, 10, 'L\'utilisation du dictionnaire', 'pdfs/cm2-th1/Vocabulaire/2.pdf', 'assets/back/Vo.jpg'),
+(57, 11, 'Les déterminants : articles définis et indéfinis', 'pdfs/cm2-th2/grammaire/1.pdf', 'assets/back/Gra.jpg'),
+(58, 11, 'Le sujet du verbe', 'pdfs/cm2-th2/grammaire/2.pdf', 'assets/back/Gra.jpg'),
+(59, 11, 'Le passé composé des verbes du 1er et 2eme groupe ', 'pdfs/cm2-th2/Conjugaison/1.pdf', 'assets/back/Conj.jpg'),
+(60, 11, 'Le présent des verbes pronominaux', 'pdfs/cm2-th2/Conjugaison/2.pdf', 'assets/back/Conj.jpg'),
+(61, 11, 'faut !!', 'pdfs/cm2-th2/Orthographe/1.pdf', 'assets/back/Orth.jpg'),
+(62, 11, 'Le féminin des noms', 'pdfs/cm2-th2/Orthographe/1.pdf', 'assets/back/Orth.jpg'),
+(63, 11, 'L\'article du dictionnaire', 'pdfs/cm2-th2/Vocabulaire/1.pdf', 'assets/back/Vo.jpg'),
+(64, 11, 'La famille de mots', 'pdfs/cm2-th2/Vocabulaire/2.pdf', 'assets/back/Vo.jpg'),
+(65, 12, 'Le complément du nom et les articles contractés', 'pdfs/cm2-th3/grammaire/1.pdf', 'assets/back/Gra.jpg'),
+(66, 12, 'Le complément d’objet direct et le complément d’objet indirect', 'pdfs/cm2-th3/grammaire/2.pdf', 'assets/back/Gra.jpg'),
+(67, 12, 'L’imparfait', 'pdfs/cm2-th3/Conjugaison/1.pdf', 'assets/back/Conj.jpg'),
+(68, 13, 'La phrase simple et complexe', 'pdfs/cm2-th4/grammaire/1.pdf', 'assets/back/Gra.jpg'),
+(69, 13, 'L\'adjectif qualificatif épithèque et attribut', 'pdfs/cm2-th4/grammaire/2.pdf', 'assets/back/Gra.jpg'),
+(70, 14, 'Les compléments CCT et CCL', 'pdfs/cm2-th5/grammaire/1.pdf', 'assets/back/Gra.jpg'),
+(71, 14, 'P.adj demonstratifs', 'pdfs/cm2-th5/grammaire/2.pdf', 'assets/back/Gra.jpg'),
+(72, 15, 'Les conjonctions de coordination', 'pdfs/cm2-th6/grammaire/1.pdf', 'assets/back/Gra.jpg'),
+(73, 15, 'Les pronoms possessifs', 'pdfs/cm2-th6/grammaire/2.pdf', 'assets/back/Gra.jpg');
 
 --
 -- Index pour les tables déchargées
@@ -425,7 +450,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pour la table `writingcourses`
 --
 ALTER TABLE `writingcourses`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
 
 --
 -- Contraintes pour les tables déchargées
