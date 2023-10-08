@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : dim. 08 oct. 2023 à 17:20
+-- Généré le : dim. 08 oct. 2023 à 18:33
 -- Version du serveur : 10.4.27-MariaDB
 -- Version de PHP : 8.2.0
 
@@ -172,40 +172,44 @@ INSERT INTO `courses` (`course_id`, `theme_id`, `course_name`, `course_pdf`, `pi
 CREATE TABLE `exercises` (
   `exercise_id` int(11) NOT NULL,
   `course_id` int(11) DEFAULT NULL,
+  `theme_id` int(11) DEFAULT NULL,
   `exercise_pdf` varchar(255) DEFAULT NULL,
-  `picture` varchar(255) DEFAULT NULL,
-  `theme_id` int(11) DEFAULT NULL
+  `picture` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Déchargement des données de la table `exercises`
 --
 
-INSERT INTO `exercises` (`exercise_id`, `course_id`, `exercise_pdf`, `picture`, `theme_id`) VALUES
-(2, NULL, 'pdfs/exercices/gra/1.pdf', 'assets/back/EGra.jpg', 1),
-(3, NULL, 'pdfs/exercices/gra/2.pdf', 'assets/back/EGra.jpg', 2),
-(4, NULL, 'pdfs/exercices/gra/3.pdf', 'assets/back/EGra.jpg', 3),
-(5, NULL, 'pdfs/exercices/gra/4.pdf', 'assets/back/EGra.jpg', 4),
-(6, NULL, 'pdfs/exercices/gra/5.pdf', 'assets/back/EGra.jpg', 5),
-(7, NULL, 'pdfs/exercices/gra/6.pdf', 'assets/back/EGra.jpg', 6),
-(8, NULL, 'pdfs/exercices/conj/1.pdf', 'assets/back/EConj.jpg', 1),
-(9, NULL, 'pdfs/exercices/conj/2.pdf', 'assets/back/EConj.jpg', 2),
-(10, NULL, 'pdfs/exercices/conj/3.pdf', 'assets/back/EConj.jpg', 3),
-(11, NULL, 'pdfs/exercices/conj/4.pdf', 'assets/back/EConj.jpg', 4),
-(12, NULL, 'pdfs/exercices/conj/5.pdf', 'assets/back/EConj.jpg', 5),
-(13, NULL, 'pdfs/exercices/conj/6.pdf', 'assets/back/EConj.jpg', 6),
-(14, NULL, 'pdfs/exercices/orth/1.pdf', 'assets/back/EOrth.jpg', 1),
-(15, NULL, 'pdfs/exercices/orth/2.pdf', 'assets/back/EOrth.jpg', 2),
-(16, NULL, 'pdfs/exercices/orth/3.pdf', 'assets/back/EOrth.jpg', 3),
-(17, NULL, 'pdfs/exercices/orth/4.pdf', 'assets/back/EOrth.jpg', 4),
-(18, NULL, 'pdfs/exercices/orth/5.pdf', 'assets/back/EOrth.jpg', 5),
-(19, NULL, 'pdfs/exercices/orth/6.pdf', 'assets/back/EOrth.jpg', 6),
-(20, NULL, 'pdfs/exercices/voc/1.pdf', 'assets/back/EVo.jpg', 1),
-(21, NULL, 'pdfs/exercices/voc/2.pdf', 'assets/back/EVo.jpg', 2),
-(22, NULL, 'pdfs/exercices/voc/3.pdf', 'assets/back/EVo.jpg', 3),
-(23, NULL, 'pdfs/exercices/voc/4.pdf', 'assets/back/EVo.jpg', 4),
-(24, NULL, 'pdfs/exercices/voc/5.pdf', 'assets/back/EVo.jpg', 5),
-(25, NULL, 'pdfs/exercices/voc/6.pdf', 'assets/back/EVo.jpg', 6);
+INSERT INTO `exercises` (`exercise_id`, `course_id`, `theme_id`, `exercise_pdf`, `picture`) VALUES
+(2, NULL, 1, 'pdfs/exercices/gra/1.pdf', 'assets/back/EGra.jpg'),
+(3, NULL, 2, 'pdfs/exercices/gra/2.pdf', 'assets/back/EGra.jpg'),
+(4, NULL, 3, 'pdfs/exercices/gra/3.pdf', 'assets/back/EGra.jpg'),
+(5, NULL, 4, 'pdfs/exercices/gra/4.pdf', 'assets/back/EGra.jpg'),
+(6, NULL, 5, 'pdfs/exercices/gra/5.pdf', 'assets/back/EGra.jpg'),
+(7, NULL, 6, 'pdfs/exercices/gra/6.pdf', 'assets/back/EGra.jpg'),
+(8, NULL, 1, 'pdfs/exercices/conj/1.pdf', 'assets/back/EConj.jpg'),
+(9, NULL, 2, 'pdfs/exercices/conj/2.pdf', 'assets/back/EConj.jpg'),
+(10, NULL, 3, 'pdfs/exercices/conj/3.pdf', 'assets/back/EConj.jpg'),
+(11, NULL, 4, 'pdfs/exercices/conj/4.pdf', 'assets/back/EConj.jpg'),
+(12, NULL, 5, 'pdfs/exercices/conj/5.pdf', 'assets/back/EConj.jpg'),
+(13, NULL, 6, 'pdfs/exercices/conj/6.pdf', 'assets/back/EConj.jpg'),
+(14, NULL, 1, 'pdfs/exercices/orth/1.pdf', 'assets/back/EOrth.jpg'),
+(15, NULL, 2, 'pdfs/exercices/orth/2.pdf', 'assets/back/EOrth.jpg'),
+(16, NULL, 3, 'pdfs/exercices/orth/3.pdf', 'assets/back/EOrth.jpg'),
+(17, NULL, 4, 'pdfs/exercices/orth/4.pdf', 'assets/back/EOrth.jpg'),
+(18, NULL, 5, 'pdfs/exercices/orth/5.pdf', 'assets/back/EOrth.jpg'),
+(19, NULL, 6, 'pdfs/exercices/orth/6.pdf', 'assets/back/EOrth.jpg'),
+(20, NULL, 1, 'pdfs/exercices/voc/1.pdf', 'assets/back/EVo.jpg'),
+(21, NULL, 2, 'pdfs/exercices/voc/2.pdf', 'assets/back/EVo.jpg'),
+(22, NULL, 3, 'pdfs/exercices/voc/3.pdf', 'assets/back/EVo.jpg'),
+(23, NULL, 4, 'pdfs/exercices/voc/4.pdf', 'assets/back/EVo.jpg'),
+(24, NULL, 5, 'pdfs/exercices/voc/5.pdf', 'assets/back/EVo.jpg'),
+(25, NULL, 6, 'pdfs/exercices/voc/6.pdf', 'assets/back/EVo.jpg'),
+(26, NULL, 10, 'pdfs/exercices/th1/gra/1.pdf', 'assets/back/EGra.jpg'),
+(27, NULL, 10, 'pdfs/exercices/th1/conj/1.pdf', 'assets/back/EConj.jpg'),
+(28, NULL, 10, 'pdfs/exercices/th1/orth/1.pdf', 'assets/back/EOrth.jpg'),
+(29, NULL, 10, 'pdfs/exercices/th1/voc/1.pdf', 'assets/back/EVo.jpg');
 
 -- --------------------------------------------------------
 
@@ -426,7 +430,7 @@ ALTER TABLE `courses`
 -- AUTO_INCREMENT pour la table `exercises`
 --
 ALTER TABLE `exercises`
-  MODIFY `exercise_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `exercise_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT pour la table `readingaudio`

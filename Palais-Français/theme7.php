@@ -150,7 +150,7 @@
 
 
     <!--les exercices -->
-    <!--
+
     <section class="space-3">
         <div class="container">
             <div class="row">
@@ -159,11 +159,11 @@
                         <h2 class="title d-block text-left-sm">Exercices</h2>
                     </div>
                     <ul class="products columns-4">
-                        <?php /*
+                        <?php
                         include "conn.php"; // Include the database connection file
 
                         // Define the theme ID you want to fetch (for example, theme 1)
-                        $theme_id = 1;
+                        $theme_id = 10;
 
                         // Query courses only for the specific theme
                         $resultsCourses = $mysqli->query("SELECT * FROM exercises WHERE theme_id = $theme_id");
@@ -186,14 +186,13 @@
 
                             <?php
 
-                        } */?>
+                        } ?>
                     </ul>
 
                 </div>
             </div>
         </div>
     </section>
-    -->
     <!-- product section end-->
 </main>
 
