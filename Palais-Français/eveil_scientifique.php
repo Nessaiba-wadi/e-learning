@@ -46,21 +46,24 @@
 <section class="page-header-18">
 </section>
 <main class="site-main page-wrapper woocommerce">
-    <!--product section start-->
-    <section class="space-3 romans-courses">
+    <!--les cours-->
+    <section class="space-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 mb-4 mb-lg-0">
                     <div class="section-title">
-                        <h2 class="title d-block text-left-sm">Romans</h2>
-                        <p class="woocommerce-result-count"> S1–S2</p>
+                        <h2 class="title d-block text-left-sm">Cours du manuel</h2>
+                        <p class="woocommerce-result-count"> Semaine 1–5</p>
                     </div>
-                    <ul class="products columns-4 course-container">
+
+
+
+                    <ul class="products columns-3">
                         <?php
                         include "conn.php"; // Include the database connection file
 
                         // Define the theme ID you want to fetch (for example, theme 1)
-                        $theme_id = 8;
+                        $theme_id = 18;
 
                         // Query courses only for the specific theme
                         $resultCourses = $mysqli->query("SELECT * FROM Courses WHERE theme_id = $theme_id");
@@ -73,12 +76,14 @@
                             $counter++;
 
                             // Add 'last' class if the counter is divisible by 3
-                            $class = ($counter % 4 == 0) ? 'product last' : 'product';
+                            $class = ($counter % 3 == 0) ? 'product last' : 'product';
                             ?>
                             <li class="<?php echo $class; ?>">
                                 <div class="product-wrap">
                                     <?php echo '<a href="' . $course['course_pdf'] . '" target="_blank" class=""><img src="' . $course['picture'] . '" alt=""></a>'; ?>
                                 </div>
+
+                            </span>
                             </li>
                             <?php
 
@@ -91,8 +96,6 @@
             </div>
         </div>
     </section>
-    <!--les cours à écrire -->
-    <!-- product section end-->
 </main>
 
 <?php include "footer.php" ?>

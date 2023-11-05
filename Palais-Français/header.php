@@ -88,7 +88,11 @@ session_start()
                                 Evaluations
                             </a>
                         </li>
-
+                        <li class="nav-item ">
+                            <a class="nav-link js-scroll-trigger" href="Science.php" >
+                                Evil Scientifique
+                            </a>
+                        </li>
                     </ul>
 
                     <a href="login-registration.php" class="btn btn-main btn-small">

@@ -85,6 +85,7 @@
                                 <div class="product-wrap">
                                     <?php echo '<a href="' . $course['course_pdf'] . '" target="_blank" class=""><img src="' . $course['picture'] . '" alt=""></a>'; ?>
                                 </div>
+
                             </li>
                             <?php
 
