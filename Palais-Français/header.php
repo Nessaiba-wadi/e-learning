@@ -77,7 +77,7 @@ session_start()
                             $class = ($counter % 4 == 0) ? 'product last' : 'product';
                             ?>
 
-                            <?php echo '<a class="nav-link js-scroll-trigger" href="' . $course['course_pdf'] . '">' . $course['course_name'] . '</a>'?>
+                            <?php echo '<a class="nav-link js-scroll-trigger" target="_blank" href="' . $course['course_pdf'] . '">' . $course['course_name'] . '</a>'?>
 
                                 <?php
 

@@ -181,7 +181,7 @@
                     // Add 'last' class if the counter is divisible by 3
                     $class = ($counter % 4 == 0) ? 'product last' : 'product';
                     ?>
-                    <?php echo '<a href="' . $course['course_pdf'] . '">
+                    <?php echo '<a target="_blank" href="' . $course['course_pdf'] . '">
                         <div class="feature-icon">
                             <img src="assets/images/home/exer.gif" style="width: 70px; height: 70px;">
                         </div>
@@ -229,7 +229,7 @@
                     // Add 'last' class if the counter is divisible by 3
                     $class = ($counter % 4 == 0) ? 'product last' : 'product';
                     ?>
-                        <?php echo '<a href="' . $course['course_pdf'] . '">
+                        <?php echo '<a target="_blank" href="' . $course['course_pdf'] . '">
                         <div class="feature-icon">
                             <img src="assets/images/home/exer.gif" style="width: 70px; height: 70px;">
                         </div>

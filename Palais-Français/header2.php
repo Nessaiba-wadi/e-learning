@@ -55,7 +55,7 @@ session_start()
                             </a>
                         </li>
                         <li class="nav-item" >
-                            <a class="nav-link js-scroll-trigger" href="PDE.php" >
+                            <a class="nav-link js-scroll-trigger" target="_blank" href="PDE.php" >
                                 Production de l'écrit
                             </a>
                         </li>
